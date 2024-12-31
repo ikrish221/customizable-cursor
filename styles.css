@@ -1,0 +1,60 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+
+}
+body,html{
+	height:100%;
+	width:100%;
+	background-color:black;
+}
+#container{
+	height:100%;
+	width:100%;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+
+}
+.name{
+	height:0px;
+	width:0px;
+	background-color:white;	
+	border-radius:50%;
+	position: absolute;
+	transition:all linear 0.2s;
+	mix-blend-mode:difference;
+
+
+}
+h1{
+	font-size:9vw;
+	font-weight:900;	
+	color:white;	
+
+
+}
+h2{
+	color:white;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	padding-top:50px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
